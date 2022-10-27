@@ -1,0 +1,36 @@
+.banner {
+    border-radius: 25px;
+    height: 225px;
+    margin-bottom: 35px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.banner:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.banner p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 48px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+}
